@@ -1,10 +1,10 @@
 # Generative AI
 
-Welcome to the **Generative AI** repository! 🚀
+Welcome to the **Generative AI** repository! 
 
 This project contains various experiments and implementations of Generative AI models, including popular Chat Models and Embedding Models.
 
-## 📁 Repository Structure
+## Repository Structure
 
 - **`ChatModels/`**: Contains scripts and implementations for various Large Language Models (LLMs) used for chat and text generation.
   - `googleAI.py`: Google's Gemini/PaLM integrations.
@@ -14,7 +14,7 @@ This project contains various experiments and implementations of Generative AI m
   - `tinyLamaModel.py`: TinyLlama model implementations.
 - **`EmbeddingModels/`**: (Coming Soon) Implementations for text embedding models.
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 This project uses modern Python packaging.
 
@@ -30,7 +30,7 @@ This project uses modern Python packaging.
    ```
    *(Alternatively, if you use `uv`, you can sync the environment using `uv.lock`)*
 
-## 🔑 Environment Variables
+## Environment Variables
 
 To use the scripts in this repository, you'll need API keys for the respective services. 
 Create a `.env` file in the root directory and add your API keys:
@@ -42,7 +42,7 @@ HUGGINGFACE_API_KEY=your_huggingface_api_key
 MISTRAL_API_KEY=your_mistral_api_key
 ```
 
-## 🚀 Usage
+## Usage
 
 Navigate to the `ChatModels` directory and run the desired script. For example:
 
@@ -50,6 +50,6 @@ Navigate to the `ChatModels` directory and run the desired script. For example:
 python ChatModels/openAI.py
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork this repository and submit pull requests if you have any cool generative AI models to add!
